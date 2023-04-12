@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANG CHỦ</title>
+    <link rel="stylesheet"
+        href="../fileboostrap/boostrap/bootstrap-5.3.0-alpha2-dist/bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/32e2d68aaa.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-main {
+            height: 40px;
+            font-size: 14px;
+        }
+
+        .picture {
+            position: relative;
+        }
+
+        .newandoff {
+            position: absolute;
+            top: 75%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h6 {
+            font-size: 20px;
+        }
+
+        .contentfooter p {
+            color: gray;
+        }
+
+        @media screen and (max-width:768px) {
+            .picture {
+                display: flex;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                justify-content: space-around;
+            }
+
+            b {
+                grid-row: 1/3;
+                grid-column: 1/4;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-success navbar-main" style="font-weight: bold;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HELP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-phone"></i> 1+ (234)
+                            5678 9101
+                        </a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">My Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Sign In
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Creath Account
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #21D192; font-weight: bold;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+                style="font-size: 40px; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">TSHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            NEW PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOP
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ALL PAGE LINK</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-cart-shopping"></i> Cart ($210.00)
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="giohang.html" style="color: black;">Giỏ hàng</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: black;">Another action</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: black;">Something else here</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="../Picture/1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../Picture/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Picture/3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Picture/4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Picture/5.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br> <br>
+    <div class="container-fluid">
+        <div class="text-center" style="font-size: 40px; color: gray;">
+            NEW ARRIVALS
+        </div>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="picture">
+                            <img src="https://th.bing.com/th/id/OIP.3G7Dkenu4xyGaaQi3zVWcgHaE5?pid=ImgDet&rs=1"
+                                class="card-img-top" alt="...">
+                            <div class="newandoff" style="display: flex;">
+                                <h4><span class="badge bg-success rounded-0">New</span></h4>
+                                <h4><span class="badge bg-danger rounded-0">15% Off</span></h4>
+                            </div>
+                        </div>
+
+                        <div class="card-body mx-auto">
+                            <p class="text-center"><b>CONSECTETUER ADIPISCING</b></p> <br>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <br>
+                            <p class="text-center">XL/XXL/S</p>
+                            <p class="text-center"><b>$25</b></p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-success" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="picture">
+                            <img src="https://th.bing.com/th/id/OIP.3G7Dkenu4xyGaaQi3zVWcgHaE5?pid=ImgDet&rs=1"
+                                class="card-img-top" alt="...">
+                            <div class="newandoff" style="display: flex;">
+                                <h4><span class="badge bg-danger rounded-0">15% Off</span></h4>
+                            </div>
+                        </div>
+
+                        <div class="card-body mx-auto">
+                            <p class="text-center"><b>LUPTATUM ZZRIL DELENIT</b></p> <br>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <br>
+                            <p class="text-center">XL/XXL/S</p>
+                            <p class="text-center"><b>$25</b></p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-success" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="picture">
+                            <img src="https://th.bing.com/th/id/OIP.3G7Dkenu4xyGaaQi3zVWcgHaE5?pid=ImgDet&rs=1"
+                                class="card-img-top" alt="...">
+                            <div class="newandoff" style="display: flex;">
+                                <h4><span class="badge bg-success rounded-0">New</span></h4>
+                            </div>
+                        </div>
+
+                        <div class="card-body mx-auto">
+                            <p class="text-center"><b>ELEIFEND OPTIONALLYEND</b></p> <br>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <br>
+                            <p class="text-center">XL/XXL/S</p>
+                            <p class="text-center"><b>$25</b></p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-success" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="picture">
+                            <img src="https://th.bing.com/th/id/OIP.3G7Dkenu4xyGaaQi3zVWcgHaE5?pid=ImgDet&rs=1"
+                                class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body mx-auto">
+                            <p class="text-center"><b>MUTATIONEM CONSUETUD</b></p> <br>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <br>
+                            <p class="text-center">XL/XXL/S</p>
+                            <p class="text-center"><b>$25</b></p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-success" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <img src="../Picture/3.jpg" class="img-fluid" alt="..." style="width: 100%; height: 300px;">
+    </div>
+    <br>
+    <div class="container-fuild">
+        <footer class="text-center text-lg-start text-dark">
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3 contentfooter">
+                        <div class="col-md-4 col-lg-5 col-xl-3">
+                            <h6 class="text-uppercase fw-bold">SUPPORT</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 100%; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                Lorem ipsum dolor sit amet, connecectetur
+                            <p><i class="fa-solid fa-phone" style="font-size: 20px; color: black;">
+                                    <b>+1-202-555-0151</b></i></p>
+                            <p><i class="fa-regular fa-envelope"> gokuvtru7@gmail.com</i></p>
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold">SHOP</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 100%; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#!" class="text-dark">Men's</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Women's</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Kid's</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Shoes</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Gift Cards</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold">INFORMATION</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 100%; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#!" class="text-dark">Questions?</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Order Status</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Sizing Charts</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Return Policy</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Contact Us</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-lg-4 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold">My Account</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 100%; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#!" class="text-dark">My Account</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">My Address</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Wish List</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Order List</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Order Status</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold">STAY IN TOUCH</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 100%; background-color: #7c4dff; height: 2px" />
+                            <button type="button" class="btn btn-light"
+                                style="width: 100%; border-color: gray; height: 50px;">Email</button>
+                            <br><br>
+                            <button type="button" class="btn btn-success"
+                                style="width: 100%; border-color: gray; height: 50px;">SUBSCRIBE <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                            <br> <br> <br>
+                            <div class="icon"
+                                style="display: flex; flex-direction: row; justify-content: space-around;">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-google"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-tiktok"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="content p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+                <div class="picture">
+                    <b>© TSHOP 2014. All right revered.</b>
+                    <img src="../Picture/visa.png" class="rounded float-end" alt="..." width="100px" height="40px"
+                        style="margin-left: 10px;">
+                    <img src="../Picture/american.jfif" class="rounded float-end" alt="..." width="100px" height="40px"
+                        style="margin-left: 10px;">
+                    <img src="../Picture/paypal.jfif" class="rounded float-end" alt="..." width="100px" height="40px">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script
+        src="../fileboostrap/boostrap/bootstrap-5.3.0-alpha2-dist/bootstrap-5.3.0-alpha2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
